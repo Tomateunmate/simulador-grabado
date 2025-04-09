@@ -32,5 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   whatsappBtn.href = "https://wa.me/5493584018123?text=Hola!%20Estuve%20usando%20el%20simulador%20de%20grabado%20y%20me%20gustar%C3%ADa%20avanzar%20con%20este%20dise%C3%B1o%20personalizado.";
 
-  draw();
+mateImg.onload = draw;
+
 });
