@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Grabado</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <h1>CADA DISEÑO ES ÚNICO COMO VOS</h1>
+  <h2>Diseñá tu propio personalizado</h2>
+  <p class="info">Este simulador es solo a modo de ejemplo. Para avanzar con tu pedido, enviá el diseño por WhatsApp.</p>
+
+  <div id="editor">
+    <img src="/public/mate_base_cropped.png" alt="Mate base" id="mateBase" />
+    <canvas id="designCanvas"></canvas>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="topText" placeholder="Texto superior">
+    <input type="text" id="bottomText" placeholder="Texto inferior">
+    <select id="fontSelector">
+      <option value="Clarendon BT">Clarendon BT</option>
+      <option value="Georgia">Georgia</option>
+      <option value="Arial Rounded MT Bold">Arial Rounded MT Bold</option>
+      <option value="SquareSlab711 Bd BT">SquareSlab711 Bd BT</option>
+      <option value="Cooper Black">Cooper Black</option>
+      <option value="BrushScript BT">BrushScript BT</option>
+      <option value="Century751 Blk BT">Century751 Blk BT</option>
+      <option value="Windsor BT">Windsor BT</option>
+      <option value="Calisto MT">Calisto MT</option>
+    </select>
+    <div id="icons"></div>
+    <button id="downloadBtn">Descargar diseño</button>
+    <a id="whatsappBtn" target="_blank">Enviar por WhatsApp</a>
+  </div>
+
+  <script src="/scripts/script.js"></script>
+</body>
+</html>
